@@ -4,8 +4,6 @@
 
 int main()
 {
-	Board b = Board();
-	Game g = Game();
-	std::cout << g.boardToString(b);
+	std::cout << Game::move(Board());
 	return 0;
 }
